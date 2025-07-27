@@ -10,7 +10,7 @@ const ProfileCard = () => {
         <div className="separator"></div>
         <p className="name">AzusagawaS</p>
         </div>
-        <div className="button"><BlueButton/></div>
+        <div><BlueButton/></div>
       </div>
     </div>
   )
