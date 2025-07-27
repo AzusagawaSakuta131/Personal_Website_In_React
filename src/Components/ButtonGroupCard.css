@@ -1,6 +1,4 @@
-.buttongroup{
-    background-color:aqua;
-    width:50%;
-    height:65%;
+.buttongroup{    
+    border: 1px solid #D1D1D6;
     display:flex;
 }

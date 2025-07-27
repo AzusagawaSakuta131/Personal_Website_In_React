@@ -1,4 +1,5 @@
-.accountbutton{
+.accountbuttonicon{
+  max-width:32px;
 }
 
 .accountbutton:hover {

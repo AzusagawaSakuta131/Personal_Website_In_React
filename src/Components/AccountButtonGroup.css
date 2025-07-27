@@ -1,4 +1,13 @@
 .buttonslayout {
     display:flex;
-    padding:15%;
+    width:106px;
+    flex-wrap:wrap;
+    gap:5px;
+}
+
+@media (max-width: 768px) {
+    .buttonslayout{
+        width:auto;
+        justify-content:center;
+    }
 }

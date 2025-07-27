@@ -23,6 +23,35 @@ const AccountButtonGroup=()=>{
             link:"https://t.me/AzusagawaSakuta131",
             altText:"Telegram",
         },
+        {
+            iconUrl:"./Telegram.svg",
+            link:"https://t.me/AzusagawaSakuta131",
+            altText:"Telegram",
+        },
+        {
+            iconUrl:"./Telegram.svg",
+            link:"https://t.me/AzusagawaSakuta131",
+            altText:"Telegram",
+        },
+        {
+            iconUrl:"./Telegram.svg",
+            link:"https://t.me/AzusagawaSakuta131",
+            altText:"Telegram",
+        },
+        {
+            iconUrl:"./Telegram.svg",
+            link:"https://t.me/AzusagawaSakuta131",
+            altText:"Telegram",
+        },
+        {
+            iconUrl:"./Telegram.svg",
+            link:"https://t.me/AzusagawaSakuta131",
+            altText:"Telegram",
+        },{
+            iconUrl:"./Telegram.svg",
+            link:"https://t.me/AzusagawaSakuta131",
+            altText:"Telegram",
+        },
     ]
     
     return (

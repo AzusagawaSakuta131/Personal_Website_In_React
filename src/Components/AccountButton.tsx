@@ -16,8 +16,6 @@ const AccountButton = ({iconUrl,link,altText}:AccountButtonProps) => {
         <img 
         src={iconUrl}
         alt={altText}
-        width="32"
-        height="32" 
         className="accountbuttonicon"
         />
     </a>
