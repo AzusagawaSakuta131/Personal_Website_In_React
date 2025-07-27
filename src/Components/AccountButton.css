@@ -1,0 +1,10 @@
+.accountbutton{
+}
+
+.accountbutton:hover {
+  background-color:#f0f0f0; /* 鼠标悬停变深蓝 */
+}
+
+.accountbutton:active {
+  background-color:#d0d0d0; /* 点击时更深蓝 */
+}

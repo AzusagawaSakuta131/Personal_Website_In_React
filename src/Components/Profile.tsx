@@ -4,11 +4,14 @@ import "./Profile.css"
 const ProfileCard = () => {
   return (
     <div className="profilecard">
-        <div><img src="/avatar.jpg"></img></div>
+      <div className="container">
+        <div className="avatar_name">
+        <img className="avatar" src="/Personal_Website_In_React/avatar.jpg"></img>
+        <div className="separator"></div>
         <p className="name">AzusagawaS</p>
-        <p className="gmail">azusagawasakuta131@gmail.com</p>
-
-        <BlueButton/>
+        </div>
+        <div className="gmail"><BlueButton/></div>
+      </div>
     </div>
   )
 }

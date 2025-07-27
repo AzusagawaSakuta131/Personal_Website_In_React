@@ -7,10 +7,10 @@
     justify-content: center;
     gap:8px;
     margin:0 auto;
-    background-color:#007BFF;
-    color:#FFFFFF;
     border-radius:35px;
     text-decoration:none;       
+    background-color:#007BFF;
+    color:#FFFFFF;
 }
 
 .icon{

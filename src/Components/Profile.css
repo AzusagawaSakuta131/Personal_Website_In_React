@@ -5,52 +5,49 @@
 }
 
 .profilecard{
-    width:40vw;
-    height:500px;
-    border-radius:50px;
     background-color:#FFFFFF;
     border: 1px solid #D1D1D6;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif;
     color:#1C1C1E;
 }
 
-.name{
-    width:100%;
-    text-align:center;
-    font-size:2rem;
-    word-break: break-all;
-    overflow-wrap: break-word;
+.container{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  width:100%;
+  height:100%;
+  padding:9% 0;
 }
 
-.gmail{
-    width:100%;
-    text-align:center;
-    margin-top:10%;
-    margin-bottom:7%;
-    font-size:1.5rem;
-    word-break: break-all;
-    overflow-wrap: break-word;
-}
-img{
+.avatar{
     display:block;
-    max-width:25%;
+    width:auto;
+    height:100%;
     border-radius:50%;
-    margin:0 auto;
-    margin-top:2rem;
+}
+.name {
+  font-size: 2rem;           
+  text-align: center;
+  color:#1C1C1E;
 }
 
+.avatar_name{
+  display:flex;
+  width:100%;
+  height:50%;
+  align-items:center;
+  justify-content:center;
+}
 
+.separator{
+  width:1px;
+  height:60%;
+  background-color:#D1D1D6;
+  margin:0 1rem;
+  transition: height 0.3s ease;
+}
 
-
-@media (max-width: 768px) {
-  .wrapper {
-    justify-content: center;
-    padding-left: 0;
-
-  }
-
-  .profilecard {
-    width: 90vw;
-    height:90vw;
-  }
+.avatar_name:hover .separator{
+  height: 0;
 }

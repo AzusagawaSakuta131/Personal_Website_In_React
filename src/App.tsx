@@ -1,12 +1,10 @@
-import ProfileCard from"./Components/Profile"
+import { FootPage } from "./Components/FootPage"
 import"./App.css"
 function App() {
   
   return (
     <>
-    <div className="layout">
-      <ProfileCard/>
-    </div>
+      <FootPage/>
     </>
   )
 }

@@ -1,0 +1,6 @@
+.buttongroup{
+    background-color:aqua;
+    width:50%;
+    height:65%;
+    display:flex;
+}
