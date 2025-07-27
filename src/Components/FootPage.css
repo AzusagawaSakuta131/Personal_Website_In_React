@@ -1,14 +1,7 @@
 *{
     box-sizing:border-box;
 }
-.footpage{
-    height: 30vh;
-}
-
 
 .footpagecontainer{
-    display:flex;
     justify-content:flex-start;
-    width:100%;
-    height:100%;
 }
