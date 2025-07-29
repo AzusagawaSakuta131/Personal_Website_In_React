@@ -1,0 +1,29 @@
+
+.sectiontitle {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 3rem;
+  font-weight: bold;
+  text-decoration: none;
+  color:#1C1C1E; /* 或你喜欢的颜色 */
+  scroll-margin-top: 50px;
+}
+
+.hash{
+  color: #007bff;
+}
+.sectiontitle::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background-color: currentColor; /* 使用文字颜色 */
+  transition: width 0.3s ease;
+}
+
+.sectiontitle:hover::after {
+  width: 100%;
+}

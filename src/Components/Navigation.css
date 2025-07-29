@@ -6,7 +6,21 @@
     border: 1px solid #D1D1D6;
     display:flex;
     position:fixed;
-    bottom:0;
-    width:100%;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 999;
     
+}
+.navigation > .profile {
+  flex-shrink: 0;
+}
+
+.navigation > .directions {
+  flex: 1;
+  overflow: hidden; /* 如果方向内容多，防止溢出 */
+}
+
+.navigation > .buttongroup {
+  flex-shrink: 0;
 }

@@ -4,9 +4,12 @@
     display:flex;
     flex-direction:column;
 }
-.projecttitle{
-    width:20%;
-}
 .project{
     width:100%;
+}
+.projecttitle{
+    font-weight: 500;
+}
+.description{
+    font-weight: 400;
 }

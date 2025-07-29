@@ -7,19 +7,17 @@
 .profilecard{
     display:inline-flex;
     border: 1px solid #D1D1D6;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif;
-    color:#1C1C1E;
 }
 
 .container{
   display:flex;
-  margin:1rem 2rem;
+  margin:0rem 1rem;
   gap:1rem;
 }
 
 .avatar{
   display:block;
-  max-width:70px;
+  max-width:45px;
   border-radius:50%;
 }
 .name {

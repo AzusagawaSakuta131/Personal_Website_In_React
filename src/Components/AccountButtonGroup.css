@@ -1,12 +1,16 @@
 .buttonslayout {
     display:flex;
-    justify-content:space-evenly;
-    padding-top:1rem;
+    align-items:center;
 }
 
 .introduce{
     text-align:center;
-    width:200px;
+    align-items:center;
+    width:250px;
+}
+.AccountButtonGroup{
+    display:flex;
+    align-items:center;
 }
 
 @media (max-width: 768px) {

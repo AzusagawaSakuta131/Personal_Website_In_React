@@ -29,7 +29,10 @@ const AccountButtonGroup=()=>{
     ]
     
     return (
-    <div>
+    <div className="AccountButtonGroup">
+        <div className="introduce">
+            {hoverText || "introduce"}
+        </div>
         <div className="buttonslayout">
             {platforms.map(({iconUrl,link,altText})=>(
                 <AccountButton 
@@ -40,9 +43,6 @@ const AccountButtonGroup=()=>{
                 onHover={setHoverText}
                 />
             ))}
-        </div>
-        <div className="introduce">
-            {hoverText || "introduce"}
         </div>
     </div>
     );

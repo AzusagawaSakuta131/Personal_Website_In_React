@@ -1,12 +1,16 @@
 import Navigation from "./Components/Navigation"
+import Project from "./Components/Project"
+import { Introduce } from "./Components/Introduce"
+import { Hobbies } from "./Components/Hobbies"
 import"./App.css"
-import ProjectCardGroup from "./Components/ProjectCardGroup"
 function App() {
   
   return (
     <>
     <div className="layout">
-      <ProjectCardGroup/>
+      <Introduce/>
+      <Project/>
+      <Hobbies/>
       <Navigation/>
     </div>
     </>
