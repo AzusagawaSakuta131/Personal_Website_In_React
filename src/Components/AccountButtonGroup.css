@@ -1,8 +1,12 @@
 .buttonslayout {
     display:flex;
-    width:106px;
-    flex-wrap:wrap;
-    gap:5px;
+    justify-content:space-evenly;
+    padding-top:1rem;
+}
+
+.introduce{
+    text-align:center;
+    width:200px;
 }
 
 @media (max-width: 768px) {

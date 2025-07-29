@@ -5,8 +5,8 @@
     align-items: center;     
     justify-content: center;
     gap:8px;                        /*gap between icon and text*/
-    margin:0 auto;
     border-radius:35px;
+    padding:0 2rem;
     text-decoration:none;       
     background-color:#007BFF;
     color:#FFFFFF;

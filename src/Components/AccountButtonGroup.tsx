@@ -1,70 +1,50 @@
+import { useState } from "react";
 import AccountButton from "./AccountButton"
 import './AccountButtonGroup.css'
 
 const AccountButtonGroup=()=>{
+    const [hoverText,setHoverText]=useState<string | null>(null);
+
     const platforms=[
         {
             iconUrl:"./GitHub.svg",
             link:"https://github.com/AzusagawaSakuta131",
-            altText:"GitHub",
+            altText:"GitHub code repositories",
         },
         {
             iconUrl:"./X.svg",
             link:"https://x.com/SakutaAzusaW",
-            altText:"Twitter",
+            altText:"Sharing bits of my life on Twitter",
         },
         {
             iconUrl:"./Fiverr.svg",
             link:"https://www.fiverr.com/users/azusagawasakuta/seller_dashboard",
-            altText:"Fiverr",
+            altText:"Feel free to purchase my service!",
         },
         {
-            iconUrl:"./Telegram.svg",
-            link:"https://t.me/AzusagawaSakuta131",
-            altText:"Telegram",
+            iconUrl:"./Linkedin.svg",
+            link:"https://www.linkedin.com/in/sakuta-azusagawa-55b355372/",
+            altText:"Professional account on Linkedin",
         },
-        {
-            iconUrl:"./Telegram.svg",
-            link:"https://t.me/AzusagawaSakuta131",
-            altText:"Telegram",
-        },
-        {
-            iconUrl:"./Telegram.svg",
-            link:"https://t.me/AzusagawaSakuta131",
-            altText:"Telegram",
-        },
-        {
-            iconUrl:"./Telegram.svg",
-            link:"https://t.me/AzusagawaSakuta131",
-            altText:"Telegram",
-        },
-        {
-            iconUrl:"./Telegram.svg",
-            link:"https://t.me/AzusagawaSakuta131",
-            altText:"Telegram",
-        },
-        {
-            iconUrl:"./Telegram.svg",
-            link:"https://t.me/AzusagawaSakuta131",
-            altText:"Telegram",
-        },{
-            iconUrl:"./Telegram.svg",
-            link:"https://t.me/AzusagawaSakuta131",
-            altText:"Telegram",
-        },
+        
     ]
     
     return (
-    <div className="buttonslayout">
-        {platforms.map(({iconUrl,link,altText})=>(
-            <AccountButton 
-            key={link}
-            iconUrl={iconUrl}
-            link={link}
-            altText={altText}
-            />
-        ))}
-   
+    <div>
+        <div className="buttonslayout">
+            {platforms.map(({iconUrl,link,altText})=>(
+                <AccountButton 
+                key={link}
+                iconUrl={iconUrl}
+                link={link}
+                altText={altText}
+                onHover={setHoverText}
+                />
+            ))}
+        </div>
+        <div className="introduce">
+            {hoverText || "introduce"}
+        </div>
     </div>
     );
 };
