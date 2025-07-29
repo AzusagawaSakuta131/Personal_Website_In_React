@@ -1,13 +1,14 @@
-import { FootPage } from "./Components/FootPage"
-
 import Navigation from "./Components/Navigation"
 import"./App.css"
+import ProjectCardGroup from "./Components/ProjectCardGroup"
 function App() {
   
   return (
     <>
-      <FootPage/>
+    <div className="layout">
+      <ProjectCardGroup/>
       <Navigation/>
+    </div>
     </>
   )
 }

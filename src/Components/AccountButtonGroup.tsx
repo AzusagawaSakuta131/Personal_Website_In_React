@@ -25,8 +25,7 @@ const AccountButtonGroup=()=>{
             iconUrl:"./Linkedin.svg",
             link:"https://www.linkedin.com/in/sakuta-azusagawa-55b355372/",
             altText:"Professional account on Linkedin",
-        },
-        
+        }
     ]
     
     return (

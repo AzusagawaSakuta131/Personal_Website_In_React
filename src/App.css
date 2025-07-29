@@ -1,9 +1,4 @@
 .layout{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 100vh;
-  padding-left: 5vw;
-  background-color:	#E5E5EA;
+  padding-bottom:6%;
 }
 
