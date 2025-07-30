@@ -11,7 +11,7 @@
 
 .container{
   display:flex;
-  margin:0rem 1rem;
+  margin:0rem 0rem 0rem 1rem;
   gap:1rem;
 }
 
